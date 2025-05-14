@@ -1,0 +1,20 @@
+.container {
+  margin-bottom: 20px;
+}
+.img {
+  border-radius: 10px;
+}
+
+.titleBox {
+  font-size: 20px;
+  max-width: 230px;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  text-wrap: inherit;
+}

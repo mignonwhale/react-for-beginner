@@ -1,0 +1,9 @@
+.rating {
+  margin-top: -15px;
+  display: flex;
+  align-items: center;
+}
+.rating_point {
+  padding-left: 10px;
+  font-family: 'Franklin Gothic Medium'
+}

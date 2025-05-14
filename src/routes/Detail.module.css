@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: left;
+  padding: 1rem 30rem
+}
+
+.imageWrapper {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.img {
+  border-radius: 10px;
+}
+.title {
+  margin: 20px 0px;
+  font-size:  40px;
+  font-weight: bold;
+}
+.year {
+  font-weight: 100;
+}
+.info {
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+  font-size:  20px;
+}
+
+.uploadedDate {
+  display: flex;
+  flex-direction: column;
+}
+
+.genres {
+  color: gray;
+  font-weight: 100;
+}
+
+.subTitle {
+  font-size:  20px;
+  font-weight: 700;
+}
