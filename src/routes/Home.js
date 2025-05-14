@@ -42,7 +42,7 @@ function Home() {
             <select onChange={handleSoring} className={styles.selector}>
               <option value="">sort by</option>
               <option value="rating">rating</option>
-              <option value="date">uploadedDate</option>
+              <option value="date">uploaded</option>
             </select>
           </div>
           <div className={styles.movieGrid}>
